@@ -42,7 +42,7 @@ export default function IPhoneView() {
   return (
     <div
       className="relative min-h-screen w-full overflow-hidden"
-      style={{ background: 'linear-gradient(160deg, #0f0c29 0%, #302b63 55%, #24243e 100%)' }}
+      style={{ backgroundImage: 'url("/Desktop Template.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <StatusBar />
 

@@ -41,7 +41,9 @@ function DesktopInner() {
     <div
       className="relative w-screen h-screen overflow-hidden select-none"
       style={{
-        background: 'linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)',
+        backgroundImage: 'url("/Desktop Template.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}
       onClick={() => setSelectedIcon(null)}
     >
